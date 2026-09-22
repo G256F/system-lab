@@ -1,0 +1,12 @@
+--- CPU ---
+架构：                                   x86_64
+CPU 运行模式：                           32-bit, 64-bit
+Address sizes:                           39 bits physical, 48 bits virtual
+字节序：                                 Little Endian
+CPU:                                     16
+--- GPU ---
+GPU 0: NVIDIA GeForce RTX 2060 (UUID: GPU-3057d13c-de9d-487f-f3b9-a8689d05097d)
+--- System ---
+Description:	Ubuntu 26.04 LTS
+--- Compiler ---
+g++ (Ubuntu 15.2.0-16ubuntu1) 15.2.0
