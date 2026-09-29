@@ -7,6 +7,11 @@ set(CMAKE_CXX-STANDARD 17)
 set(CMAKE_CXX-STANDARD_REQUIRED ON)
 
 add_executable(MyApp)
+add_executable(day_260923 src/day_260923.cpp)
+add_executable(day_260924_1 src/day_260924_1.cpp)
+add_executable(day_260924_2 src/day_260924_2.cpp)
+add_executable(day_260924_3 src/day_260924_3.cpp)
+add_executable(day_260925 src/day_260925.cpp)
 
 target_sources(MyApp 
 	PRIVATE
