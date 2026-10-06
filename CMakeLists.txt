@@ -12,6 +12,11 @@ add_executable(day_260924_1 src/day_260924_1.cpp)
 add_executable(day_260924_2 src/day_260924_2.cpp)
 add_executable(day_260924_3 src/day_260924_3.cpp)
 add_executable(day_260925 src/day_260925.cpp)
+add_executable(day_260928_1 src/day_260928_1.cpp)
+add_executable(day_260928_2 src/day_260928_2.cpp)
+add_executable(day_260928_3 src/day_260928_3.cpp)
+add_executable(day_260928_4 src/day_260928_4.cpp)
+
 
 target_sources(MyApp 
 	PRIVATE

@@ -8,14 +8,14 @@
 bool SaveSample(const std::vector<double>& values, const std::string& filename);
 
 
-class BatterySamples
+class DataBatch
 {
     public:
-        BatterySamples(const std::vector<double> &v): voltages(v)
+        DataBatch(const std::vector<double> &v): voltages(v)
         {
             std::cout << "构建采样对象" << std::endl;
         }
-        ~BatterySamples()
+        ~DataBatch()
         {
             std::cout << "析构采样对象" << std::endl;
         }
@@ -56,7 +56,7 @@ int main()
 }
 bool SaveSample(const std::vector<double>& values, const std::string& filename)
 {
-    BatterySamples sample(values);
+    DataBatch sample(values);
     std::ofstream file(filename);
     if (!file.is_open())
     {
