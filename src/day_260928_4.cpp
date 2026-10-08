@@ -95,7 +95,7 @@ int main()
     std::cout << "所有批次的总和: " << totalSum << std::endl;
     std::cout << std::endl;
 
-    return true;
+    return 0;
 }
 long long consumeBatch(std::unique_ptr<DataBatch> batch)
 {

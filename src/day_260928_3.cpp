@@ -70,5 +70,5 @@ int main()
     }
     std::cout << std::endl;
 
-    return true;
+    return 0;
 }

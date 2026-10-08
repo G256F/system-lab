@@ -16,6 +16,7 @@ add_executable(day_260928_1 src/day_260928_1.cpp)
 add_executable(day_260928_2 src/day_260928_2.cpp)
 add_executable(day_260928_3 src/day_260928_3.cpp)
 add_executable(day_260928_4 src/day_260928_4.cpp)
+add_executable(day_260929 src/day_260929.cpp)
 
 
 target_sources(MyApp 
