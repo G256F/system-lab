@@ -31,6 +31,22 @@ def main():
         writer.writerows([[value] for value in data])
     print(f"csv文件已创建，包含数据: {data}")
 
+    # 示例数据
+    # data = [-2,0,2]
+    # with open('../test_file/260930/data2.csv', 'w', newline='') as csvfile:
+    #     writer = csv.writer(csvfile)
+    #     writer.writerow(['value'])
+    #     writer.writerows([[value] for value in data])
+    # print(f"csv文件已创建，包含数据: {data}")
+
+    # data = [1,'12abc',3]
+    # with open('../test_file/260930/data1.csv', 'w', newline='') as csvfile:
+    #     writer = csv.writer(csvfile)
+    #     writer.writerow(['value'])
+    #     writer.writerows([[value] for value in data])
+    # print(f"csv文件已创建，包含数据: {data}")
+
+
     with open('../test_file/260928/data.csv', 'r') as csvfile:
         reader = csv.DictReader(csvfile)
         target_nums = []
